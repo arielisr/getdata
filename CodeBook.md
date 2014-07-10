@@ -46,8 +46,10 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-In the tidy dataset 'tidy.txt', we computed the mean and standard deviation for each feature of this feature vector,
-then computed the mean of these variables per subject, per activity.
+# TIDY dataset
+
+We used these features to create a tidy dataset 'tidy.txt', in which we computed the mean and standard deviation for
+each feature of the UCI feature vector, then computed the mean of these variables per subject, per activity.
 
 These final feature names are:
 * activity
