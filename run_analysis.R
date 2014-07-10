@@ -1,4 +1,5 @@
 # run_analysis.R: parses input files from the UCI HAR Dataset, and prepares tidy data set
+# Ariel Israel, getting and cleaning data Johns Hopkins/coursera course
 
 # set working directory, modify according to your configuration
 setwd('d:/courses/getdata/UCI HAR Dataset')
@@ -35,4 +36,4 @@ DT=data.table(merged)
 # create the second tidy dataset
 tidy=DT[,lapply(.SD,mean),by=c('activity','subject')]
 # write the file to disk
-	
+write.csv(tidy,file='tidy.txt')	
