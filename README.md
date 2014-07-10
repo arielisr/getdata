@@ -1,4 +1,5 @@
 ## Course project for the coursera 'Getting and Cleaning Data'
+Ariel Israel, getting and cleaning data Johns Hopkins/coursera course
 
 ### FILES:
 - README.md: This file
